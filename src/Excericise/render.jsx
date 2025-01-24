@@ -9,10 +9,18 @@ export default function Render(){
         fontStyle: 'italic',
      
     }
+    const props2 ={
+        fontSize: '18',
+        backgroundColor: 'lightblue',
+        fontColor: 'white',
+        fontStyle: 'normal',
+    }
 
     return (
-        <div style={{fontSize: props.fontSize, backgroundColor: props.backgroundColor, color: props.fontColor, fontStyle: props.fontStyle}}>
-            My name is Arati
+        <div >
+            <h1>Component Example</h1>
+          <p style={{fontSize: props2.fontSize, backgroundColor: props2.backgroundColor, color: props2.fontColor, fontStyle: props2.fontStyle}}>I am a computer student</p>
+           <p style={{fontSize: props.fontSize, backgroundColor: props.backgroundColor, color: props.fontColor, fontStyle: props.fontStyle}}> My name is Arati</p>
         </div>
 
        
