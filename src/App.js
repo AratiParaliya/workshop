@@ -1,15 +1,19 @@
 
-
+import React from 'react';
+// import LifeCycle from './component/lifecycleendstatewithclasscomponent';
+// import UseStateFun from './component/usestatewithfunction';
 import './App.css';
+import Render from './Excericise/render';
 
 function App() {
   return (
     <>
-    <div>
-      <h1>Hello</h1>
-      <p>Welcome to React!</p>
-    </div>
-    </>
+ 
+{/*   
+      <LifeCycle/>
+     <UseStateFun/> */}
+     <Render/>
+      </> 
   );
 }
 

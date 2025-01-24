@@ -4,14 +4,12 @@ import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 
-import LifeCycle from './component/lifecycleendstatewithclasscomponent';
-import UseStateFun from './component/usestatewithfunction';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <LifeCycle/>
- <UseStateFun/>
+ <App/>
   </React.StrictMode>
 );
 
