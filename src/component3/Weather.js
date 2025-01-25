@@ -17,12 +17,13 @@ const Weather = () => {
 
                 <input type="text" placeholder="Enter city" value={city} onChange={(e) => setCity(e.target.value)} />
 
-                <button onClick={handleFetchWeather}>Get Weather</button>
+                <button onClick={handleFetchWeather} disabled = {city.length === 0}>Get Weather</button>
 
             </div> {weatherData && (
                 <div>
                     <h2>{weatherData.name}</h2>
                     <p>Temperature: {weatherData.main.temp}°F</p>
+                    
                     <p>Weather: {weatherData.weather[0].description}</p>
                     <p>Wind Speed: {weatherData.wind.speed}</p>
                     <p>Wind Deg: {weatherData.wind.deg}</p>

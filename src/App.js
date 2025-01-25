@@ -3,10 +3,13 @@ import React from 'react';
 // import LifeCycle from './component/lifecycleendstatewithclasscomponent';
 // import UseStateFun from './component/usestatewithfunction';
 import './App.css';
-import Render from './Excericise/render';
-import PersonDefaultDemo from './Components/DefaultProp';
-import Weather from './component3/Weather';
-import Person from './Components/Person_FunctionComponent';
+// import Render from './Excericise/render';
+// import PersonDefaultDemo from './Components/DefaultProp';
+// import Weather from './component3/Weather';
+// import Person from './Components/Person_FunctionComponent';
+import MyForm, { Register } from './component4/Register.jsx';
+import RegistrationForm from './component4/Register.jsx';
+import UserForm from './component4/Register.jsx';
 
 function App() {
   const props = {
@@ -20,7 +23,7 @@ function App() {
   const personJobInfo = { designation: "Sr. Front End Developer", experience: "14 years" };
   return (
     <>
-
+{/* 
      <Render/>
      <Render fontSize = "30"backgroundColor="lightblue" fontColor="white"fontStylr="bold"/>
      <Render fontSize = "30"backgroundColor="green" fontColor="white"fontStylr="bold"/>
@@ -31,7 +34,8 @@ function App() {
        <PersonDefaultDemo name="Jay Poojara" gender="Male"  designation="Chairman"/>
     
 
-       <Weather/>
+       <Weather/> */}
+<UserForm/>
     </>
    
 
